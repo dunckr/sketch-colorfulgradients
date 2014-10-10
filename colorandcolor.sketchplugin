@@ -4,6 +4,6 @@ var layers = selection;
 var length = [selection count];
 for (var i = 0; i < length; i++ ) {
 	var layer = layers[i];
-	var data = findColorGradient("http://colorfulgradients.tumblr.com/random");
+	var data = findColorGradient("http://colorandcolor.tumblr.com/random");
 	setImage(layer, data);
 }
