@@ -1,9 +1,5 @@
 #import 'lib/util.js'
 
-var layers = selection;
-var length = [selection count];
-for (var i = 0; i < length; i++ ) {
-	var layer = layers[i];
-	var data = findColorGradient("http://colorandcolor.tumblr.com/random");
-	setImage(layer, data);
-}
+var url = "http://colorandcolor.tumblr.com/random";
+
+run(url);
