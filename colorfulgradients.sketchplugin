@@ -5,29 +5,46 @@ function request(url) {
   return response;
 }
 
-function parse(response) {
-    return JSON.parse(NSString.alloc().initWithData_encoding(response, NSUTF8StringEncoding));
+function toString(response) {
+	return NSString.alloc().initWithData_encoding(response, NSUTF8StringEncoding);
 }
 
-function setImage(image) {
-	var layer = selection[0];
+function setImage(layer, data) {
+	var image = NSImage.alloc().initWithData(data);
 	var fill = layer.style().fills().firstObject();
 	fill.setFillType(4);                
 	layer.style().fills().firstObject().setPatternImage( image );
 	layer.style().fills().firstObject().setPatternFillType(1);
 }
 
-var data = request("http://api.tumblr.com/v2/blog/colorfulgradients.tumblr.com/posts/photo?api_key=fuiKNFp9vQFvjLNvx4sUwti4Yb5yGutBN4Xh10LXZhhRKjWlV4");
-var json = parse(data);
+function findPngs(str) {
+	return str.match(/(http:)([/|.|\w|\s])*\.(png)/g);
+}
 
-var posts = json.response.posts;
+function endsWith(str, suffix) {
+    return str.indexOf(suffix, str.length - suffix.length) !== -1;
+};
 
-var post = posts[1]
+function findLargestPng(arr) {
+	for (var i = 0; i < arr.length; i++) {
+		if (endsWith(arr[i], "_1280.png")) {
+			return arr[i]
+		}
+	}
+}
 
-var url = post.photos[0].original_size.url;
+function findColorGradient() {
+	var randomData = request("http://colorfulgradients.tumblr.com/random");
+	var random = toString(randomData);
+	var pngs = findPngs(random);
+	var png = findLargestPng(pngs);
+	return request(png);
+}
 
-
-var res = request(url);
-var image = NSImage.alloc().initWithData(res);
-setImage(image);
-
+var layers = selection;
+var length = [selection count];
+for (var i = 0; i < length; i++ ) {
+	var layer = layers[i];
+	var data = findColorGradient();
+	setImage(layer, data);
+}
