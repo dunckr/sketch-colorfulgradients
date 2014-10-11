@@ -1,8 +1,8 @@
 # Sketch Colorful Gradients
 
-![Importing into Sketch](https://raw.githubusercontent.com/dunckr/sketch-colorfulgradients/master/example.gif)
-
 Add [Will Burn](http://willburnswebsite.com)'s [colorfulgradients](http://colorfulgradients.tumblr.com]) and [colorincolor](http://colorandcolor.tumblr.com) into Sketch.
+
+![Importing into Sketch](https://raw.githubusercontent.com/dunckr/sketch-colorfulgradients/master/example.gif)
 
 ##Using
 
