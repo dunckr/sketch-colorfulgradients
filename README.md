@@ -1,14 +1,14 @@
 # Sketch Colorful Gradients
 
-Add [Will Burn](http://willburnswebsite.com)'s [colorfulgradients](http://colorfulgradients.tumblr.com]) and [colorincolor](http://colorandcolor.tumblr.com) into Sketch.
+Import gradients as shape fills in Sketch using [Will Burn](http://willburnswebsite.com)'s [colorfulgradients](http://colorfulgradients.tumblr.com]) and [colorincolor](http://colorandcolor.tumblr.com).
 
 ![Importing into Sketch](https://raw.githubusercontent.com/dunckr/sketch-colorfulgradients/master/example.gif)
 
 ##Using
 
-+ Select a shape
-+ ```Plugins > Menu > sketch-colorfulgradients > Select option```
-+ Wait for the random background to be downloaded and inserted as a fill
++ Select Shapes
++ ```Plugins > Menu > sketch-colorfulgradients > Option```
++ Wait for the image to be downloaded and inserted as a fill
 
 ## Installation
 
