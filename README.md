@@ -2,9 +2,15 @@
 
 Import gradients as shape fills in Sketch using [Will Burn](http://willburnswebsite.com)'s [colorfulgradients](http://colorfulgradients.tumblr.com]) and [colorincolor](http://colorandcolor.tumblr.com).
 
-![Importing into Sketch](https://raw.githubusercontent.com/dunckr/sketch-colorfulgradients/master/example.gif)
+###colorfulgradients
+![colorfulgradients](https://raw.githubusercontent.com/dunckr/sketch-colorfulgradients/master/assets/colorgradients.png)
+
+###colorincolor
+![colorincolor](https://raw.githubusercontent.com/dunckr/sketch-colorfulgradients/master/assets/colorandcolor.png)
 
 ##Using
+
+![Using plugin](https://raw.githubusercontent.com/dunckr/sketch-colorfulgradients/master/assets/usage.gif)
 
 + Select Shapes
 + ```Plugins > Menu > sketch-colorfulgradients > Option```
