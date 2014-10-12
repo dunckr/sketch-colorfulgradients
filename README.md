@@ -8,7 +8,7 @@ Import gradients as shape fills in Sketch using [Will Burn](http://willburnswebs
 ###colorincolor
 ![colorincolor](https://raw.githubusercontent.com/dunckr/sketch-colorfulgradients/master/assets/colorandcolor.png)
 
-##Using
+##Usage
 
 ![Using plugin](https://raw.githubusercontent.com/dunckr/sketch-colorfulgradients/master/assets/usage.gif)
 
