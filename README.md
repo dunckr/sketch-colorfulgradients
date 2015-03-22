@@ -1,6 +1,6 @@
 # Sketch Colorful Gradients
 
-Import gradients as shape fills in Sketch using [Will Burn](http://willburnswebsite.com)'s [colorfulgradients](http://colorfulgradients.tumblr.com]) and [colorincolor](http://colorandcolor.tumblr.com).
+Import gradients as shape fills in Sketch using [Will Burn](http://willburnswebsite.com)'s [colorfulgradients](http://colorfulgradients.tumblr.com) and [colorincolor](http://colorandcolor.tumblr.com).
 
 ###colorfulgradients
 ![colorfulgradients](https://raw.githubusercontent.com/dunckr/sketch-colorfulgradients/master/assets/colorgradients.png)
