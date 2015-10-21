@@ -13,12 +13,12 @@ Import gradients as shape fills in Sketch using [Will Burn](http://willburnswebs
 ![Using plugin](https://raw.githubusercontent.com/dunckr/sketch-colorfulgradients/master/assets/usage.gif)
 
 + Select Shapes
-+ ```Plugins > Menu > sketch-colorfulgradients > Option```
-+ Wait for the image to be downloaded and inserted as a fill
++ Run using ```Plugins > Menu > sketch-colorfulgradients > Option```
++ Wait for the images to be inserted as fills
 
 ## Installation
 
-Official documentation is [here](http://bohemiancoding.com/sketch/support/developer/01-introduction/01.html).
+The [official documentation](http://bohemiancoding.com/sketch/support/developer/01-introduction/01.html) explains how to install plugins in detail.
 
 ###Clone
 
@@ -28,8 +28,12 @@ Official documentation is [here](http://bohemiancoding.com/sketch/support/develo
 ###Download
 
 + Find Sketch Plugins folder using ```Plugins menu > Reveal Plugins Folder```
-+ Use ```Download ZIP``` button
-+ Unzip and put into Sketch plugins folder
++ [Download](https://github.com/dunckr/sketch-colorfulgradients/archive/master.zip)
++ Unzip and copy into Sketch plugins folder
+
+## Thanks
+
+A big thanks to the awesome [Will Burn](http://willburnswebsite.com)).
 
 ## License
 
