@@ -1,5 +1,5 @@
-#import 'lib/util.js'
+@import 'lib/gradient.js'
 
-var url = "http://colorfulgradients.tumblr.com/random"
+var url = 'http://colorfulgradients.tumblr.com/random'
 
-setFillWithUrl(url);
+setFillFromUrl(url);
